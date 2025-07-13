@@ -21,13 +21,13 @@
       <div class="collapse navbar-collapse" id="adminNavbar">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link " href="admin.html">Home</a>
+            <a class="nav-link" href="admin.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="manage_internship.html">Manage Internships</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="manage_recruiters.html">Manage Recruiters</a>
+            <a class="nav-link" href="manage_recruiters.html">Manage Recruiters</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="manage_students.html">Manage Students</a>
@@ -36,7 +36,7 @@
             <a class="nav-link" href="applications.html">Applications</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="reports.html">Reports</a>
+            <a class="nav-link active" href="reports.html">Reports</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-warning" href="login.html">Logout</a>
@@ -47,26 +47,35 @@
   </nav>
 
   <div class="container mt-5">
-    <h2>Manage Recruiters</h2>
-    <p>Approve or remove recruiter accounts.</p>
-    <table class="table table-bordered mt-4">
-      <thead class="table-primary">
-        <tr>
-          <th>Recruiter Name</th>
-          <th>Company</th>
-          <th>Email</th>
-          <th>Action</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>John Doe</td>
-          <td>DevWorks</td>
-          <td>john@devworks.com</td>
-          <td><button class="btn btn-sm btn-warning">Block</button></td>
-        </tr>
-      </tbody>
-    </table>
+    <h2>System Reports</h2>
+    <p>Overview of portal activities and statistics.</p>
+
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <div class="card text-bg-info mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Total Internships</h5>
+            <p class="card-text">34</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-bg-success mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Total Students</h5>
+            <p class="card-text">120</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-bg-warning mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Applications Received</h5>
+            <p class="card-text">256</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 </body>
