@@ -1,3 +1,29 @@
-h{
-    font-size: 20px;
+body {
+  background: linear-gradient(to right, #964ee2, #1ba9c9);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup-container {
+  padding: 20px;
+}
+
+.signup-form {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.signup-form h2 {
+  font-weight: 600;
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #2575fc;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #1a5dd9;
 }

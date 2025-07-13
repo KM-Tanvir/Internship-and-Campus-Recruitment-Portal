@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Internship and Campus Recruitment Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="manage_internship.css">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Admin Dashboard</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#adminNavbar" aria-controls="adminNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="adminNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " href="admin.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="manage_internship.html">Manage Internships</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Manage Recruiters</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Manage Students</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Applications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="login.html">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h2> Internship Offers</h2>
+    <!-- Placeholder table -->
+    <table class="table table-bordered table-hover mt-4">
+      <thead class="table-primary">
+        <tr>
+          <th>Internship Title</th>
+          <th>Company</th>
+          <th>Deadline</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Web Developer Intern</td>
+          <td>TechCorp</td>
+          <td>30 July 2025</td>
+          <td><button class="btn btn-sm btn-danger">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
